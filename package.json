@@ -1,0 +1,31 @@
+{
+  "name": "utmify",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Generate a UTM parameter object from individual properties (e.g. campaign)",
+  "license": "MIT",
+  "repository": "bendrucker/utmify",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "utm",
+    "param",
+    "object"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^5.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "array-to-hash": "~1.0.0"
+  }
+}
