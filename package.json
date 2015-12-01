@@ -1,7 +1,7 @@
 {
   "name": "utmify",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate a UTM parameter object from individual properties (e.g. campaign)",
   "license": "MIT",
   "repository": "bendrucker/utmify",
