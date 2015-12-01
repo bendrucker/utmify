@@ -10,5 +10,6 @@ test(function (t) {
   t.deepEqual(utmify({campaign: 'git', foo: 'bar'}), {
     utm_campaign: 'git'
   })
+  t.deepEqual(utmify({campaign: ''}), {})
   t.end()
 })

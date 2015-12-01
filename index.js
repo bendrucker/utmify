@@ -18,7 +18,8 @@ module.exports = function utmify (params) {
     .reduce(accumulate, {})
 
   function accumulate (acc, key) {
-    acc['utm_' + key] = params[key]
+    var value = params[key]
+    if (value) acc['utm_' + key] = value
     return acc
   }
 }

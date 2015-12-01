@@ -36,7 +36,7 @@ A list of UTM parameters. Allowed keys are:
 * content
 * term
 
-These keys will be prefixed with `utm_`. Any other keys will be stripped from the output.
+These keys will be prefixed with `utm_`. Any other keys will be stripped from the output. Falsy values will also be stripped.
 
 
 ## License
