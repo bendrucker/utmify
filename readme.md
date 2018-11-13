@@ -1,4 +1,4 @@
-# utmify [![Build Status](https://travis-ci.org/bendrucker/utmify.svg?branch=master)](https://travis-ci.org/bendrucker/utmify)
+# utmify [![Build Status](https://travis-ci.org/bendrucker/utmify.svg?branch=master)](https://travis-ci.org/bendrucker/utmify) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/utmify.svg)](https://greenkeeper.io/)
 
 > Generate a UTM parameter object from individual properties (e.g. campaign)
 
